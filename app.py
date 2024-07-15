@@ -38,5 +38,5 @@ map_data = pd.DataFrame(
 st.map(map_data)
 
 
-titanic = pd.read_csv("C:/Users/user/Desktop/toss-sql/data/titanic/titanic.csv")
+titanic = pd.read_csv("./data/titanic/titanic.csv")
 st.write(titanic)
