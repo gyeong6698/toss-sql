@@ -37,3 +37,6 @@ map_data = pd.DataFrame(
     columns=['lat', 'lon'])
 st.map(map_data)
 
+
+titanic = pd.read_csv("C:/Users/user/Desktop/toss-sql/data/titanic/titanic.csv")
+st.write(titanic)
